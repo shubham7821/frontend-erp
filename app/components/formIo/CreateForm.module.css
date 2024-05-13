@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #1b5e20;
+    /* Deep green */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navButton {
+    background-color: #4caf50;
+    /* Lighter green */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formArea {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Light grey background for form area */
+}
+
+.saveButton {
+    background-color: #4caf50;
+    /* Green to match sidebar buttons */
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}

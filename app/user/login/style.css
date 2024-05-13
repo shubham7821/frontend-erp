@@ -1,0 +1,72 @@
+/* Add this to your global stylesheet or a module CSS */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Full viewport height */
+    background-color: #f3f4f6;
+    /* Light gray background */
+    padding: 20px;
+}
+
+.login-title {
+    color: #333;
+    font-size: 24px;
+    /* Larger font size for the title */
+    margin-bottom: 10px;
+    /* Spacing below the title */
+}
+
+.login-input {
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    /* Increased margin for better spacing */
+    border: 1px solid #ccc;
+    /* Subtle borders */
+    border-radius: 8px;
+    /* Rounded borders */
+    width: 300px;
+    /* Fixed width for inputs */
+    outline: none;
+    /* Removes outline */
+}
+
+.login-input:focus {
+    border-color: #5b9bd5;
+    /* Blue focus border */
+}
+
+.login-button {
+    padding: 12px 20px;
+    width: 320px;
+    /* Slightly wider than input for visual effect */
+    border: none;
+    border-radius: 8px;
+    background-color: #0078d4;
+    /* Vibrant blue for the button */
+    color: white;
+    cursor: pointer;
+    /* Indicates interactivity */
+    font-size: 16px;
+    /* Larger font for better readability */
+}
+
+.login-button:hover {
+    background-color: #005ba1;
+    /* Darker blue on hover */
+}
+
+.login-link {
+    margin-top: 20px;
+    color: #0078d4;
+    /* Matching blue for consistency */
+    text-decoration: none;
+    /* No underline */
+}
+
+.login-link:hover {
+    text-decoration: underline;
+    /* Underline on hover for feedback */
+}

@@ -1,0 +1,27 @@
+.createFormButton {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.editLink {
+    color: #5e503f;
+}
+
+.customTable {
+    background-color: #fff8f0;
+    color: #5e503f;
+}
+
+/* Assuming a general theme for links to align with the sweet color theme */
+.link {
+    color: #5e503f;
+    text-decoration: none;
+    /* Removing underline from links */
+}
+
+.link:hover {
+    color: #f3e9dc;
+    /* A lighter hover effect */
+}
+
+/* Additional styles for responsiveness or other elements could be added here */

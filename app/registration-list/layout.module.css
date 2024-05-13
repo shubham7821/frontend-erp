@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+.sidebar {
+    width: 250px;
+    /* Adjusted width for better proportion */
+    background-color: #f3e9dc;
+    /* Soft peach */
+    padding: 20px;
+    color: #5e503f;
+    /* Earthy brown for text */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff8f0;
+    /* Very light peach, almost white */
+    color: #5e503f;
+    /* Consistent text color for good readability */
+}
+
+.link {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #5e503f;
+    /* Earthy brown */
+    text-decoration: none;
+    /* No underline */
+    border-radius: 4px;
+    /* Softened corners */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.link:hover {
+    background-color: #ecdcc9;
+    /* Lighter shade for hover */
+}
+
+
+.body_background {
+    background-color: #f0f8ff;
+    /* Light blue background */
+    padding: 20px;
+    /* Add padding to ensure content doesn't touch the edges */
+}
+
+.nav-sidebar {
+    width: 200px;
+    /* Adjust width as necessary */
+    margin-right: 20px;
+    /* Space between sidebar and main content */
+    padding: 10px;
+}
+
+.table_header {
+    background-color: #b0c4de;
+    /* Light steel blue */
+    color: white;
+}
+
+.table-row:hover {
+    background-color: #e0ffff;
+    /* Light cyan for hover */
+}
+
+.table {
+    margin-top: 20px;
+    /* Ensure there's space above the table */
+    width: 100%;
+    /* Ensures the table uses full available width */
+    padding: 10px 0;
+    /* Padding at top and bottom of table */
+}
+
+.body_background h1 {
+    color: #4682b4;
+    /* Steel blue for header */
+    margin-bottom: 20px;
+    /* Space below the header */
+}
