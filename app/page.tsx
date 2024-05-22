@@ -1,8 +1,9 @@
-import Navigation from "@app/components/Navigation";
+'use client';
+import Navigation from "./components/Navigation";
 
 import axios from "axios";
 
-export async function getServerSideProps(context: any) {
+export async function getServerSideProps({ context }: { context: any; }) {
   const { req } = context;
   let isLoggedIn = false;
 

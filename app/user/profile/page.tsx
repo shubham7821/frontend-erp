@@ -1,23 +1,30 @@
+
 "use client";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 
+
 export default function ProfilePage() {
   const router = useRouter();
   const [data, setData] = useState({ _id: "", isAdmin: false });
-
   const logout = async () => {
     try {
-      await axios.get("/api/users/logout");
-      toast.success("Logout successful");
-      router.push("/user/login");
-    } catch (error) {
-      console.error(error.message);
-      toast.error(error.message);
+        await axios.get("/api/users/logout");
+        toast.success("Logout successful");
+        router.push("/user/login");
+    } catch (error: unknown) {
+        // We need to check if the error is an instance of Error
+        if (error instanceof Error) {
+            console.error(error.message);
+            toast.error(error.message);  // Display the error message if it's an instance of Error
+        } else {
+            console.error("An unexpected error occurred.");
+            toast.error("An unexpected error occurred.");  // Provide a generic error message otherwise
+        }
     }
-  };
+};
 
   useEffect(() => {
     getUserDetails();
