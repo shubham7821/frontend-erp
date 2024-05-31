@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 13.202.70.97 -p 3000",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,9 +15,7 @@
     "@types/bcryptjs": "^2.4.3",
     "@types/hammerjs": "^2.0.41",
     "@types/jsonwebtoken": "^9.0.2",
-    "@types/node": "20.5.7",
     "@types/nodemailer": "^6.4.9",
-    "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "axios": "^1.5.0",
@@ -39,7 +37,6 @@
     "mongoose": "^7.5.0",
     "next": "^13.5.6",
     "nodemailer": "^6.9.4",
-    "postcss": "8.4.29",
     "preact": "^10.17.1",
     "preact-render-to-string": "^6.2.1",
     "react": "18.2.0",
@@ -47,14 +44,18 @@
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
     "reactstrap": "^9.2.0",
-    "save-file": "^2.3.1",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
+    "save-file": "^2.3.1"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.3",
     "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.12.13",
     "@types/nodemailer": "^6.4.8",
-    "encoding": "^0.1.13"
+    "@types/react": "^18.3.3",
+    "encoding": "^0.1.13",
+    "postcss": "^8.4.38",
+    "postcss-nesting": "^12.1.5",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   }
 }

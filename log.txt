@@ -1,0 +1,192 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+  ▲ Next.js 13.5.6
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Ready in 5.4s
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ○ Compiling /form-builder/add-edit/page ...
+ ⚠ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+Warning
+
+(66:3) Nested CSS was detected, but CSS nesting has not been configured correctly.
+Please enable a CSS nesting plugin *before* Tailwind in your configuration.
+See how here: https://tailwindcss.com/docs/using-with-preprocessors#nesting
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+/
+/user/login
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Erp\frontend-erp\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[12].oneOf[12].use[2]!C:\Erp\frontend-erp\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[12].oneOf[12].use[3]!C:\Erp\frontend-erp\app\globals.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+ ✓ Compiled /user/login/page in 15.1s (3493 modules)
+ ✓ Compiled /api/users/me/route in 834ms (1798 modules)
+ ✓ Compiled (1897 modules)
+MongoDB connected successfully
+/user/signup
+ ⚠ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+Warning
+
+(66:3) Nested CSS was detected, but CSS nesting has not been configured correctly.
+Please enable a CSS nesting plugin *before* Tailwind in your configuration.
+See how here: https://tailwindcss.com/docs/using-with-preprocessors#nesting
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+/user/signup
+ ○ Compiling /user/signup/page ...
+ ⚠ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+Warning
+
+(66:3) Nested CSS was detected, but CSS nesting has not been configured correctly.
+Please enable a CSS nesting plugin *before* Tailwind in your configuration.
+See how here: https://tailwindcss.com/docs/using-with-preprocessors#nesting
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+ ⚠ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+Warning
+
+(66:3) Nested CSS was detected, but CSS nesting has not been configured correctly.
+Please enable a CSS nesting plugin *before* Tailwind in your configuration.
+See how here: https://tailwindcss.com/docs/using-with-preprocessors#nesting
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+{
+  email: 'shub6059@gmail.com',
+  password: 'Shubham',
+  username: 'shub6059'
+}
+ ⚠ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+Warning
+
+(66:3) Nested CSS was detected, but CSS nesting has not been configured correctly.
+Please enable a CSS nesting plugin *before* Tailwind in your configuration.
+See how here: https://tailwindcss.com/docs/using-with-preprocessors#nesting
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+ ✓ Compiled /not-found in 1094ms (3639 modules)
+{
+  email: 'shub6059@gmail.com',
+  password: 'Shubham',
+  username: 'shub6059'
+}
+{
+  email: 'shub6059@gmail.com',
+  password: 'Shubham',
+  username: 'shub6059'
+}
+{
+  email: 'shub6059@gmail.com',
+  password: 'Shubham',
+  username: 'shub6059'
+}
+/user/login
+ ✓ Compiled /api/users/login/route in 347ms (491 modules)
+{ email: 'shub6059@gmail.com', password: 'Shubham' }
+user exists
+{
+  _id: new ObjectId("664c5608566057b911b87be8"),
+  username: 'shub6059',
+  email: 'shub6059@gmail.com',
+  password: '$2a$10$4fl..2RCuplpI4m1yd1L1uq0wMy9TsZqAXnpPvNIwrPAvQxO/Ttwi',
+  isVerfied: true,
+  isAdmin: true,
+  __v: 0
+}
+ ○ Compiling /form-builder/page ...
+ ✓ Compiled /form-builder/page in 4.2s (2247 modules)
+ ✓ Compiled /api/users/me/route in 260ms (511 modules)
+ ✓ Compiled /form-builder/add-edit/page in 1817ms (1919 modules)
+ ○ Compiling /bpmn/page ...
+ ✓ Compiled /bpmn/page in 8.8s (4584 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Erp\frontend-erp\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[12].oneOf[12].use[2]!C:\Erp\frontend-erp\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[12].oneOf[12].use[3]!C:\Erp\frontend-erp\app\globals.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+/
+ ⨯ ./app\page.tsx
+ReactServerComponentsError:
+
+"getServerSideProps" is not supported in app/. Read more: https://nextjs.org/docs/app/building-your-application/data-fetching
+
+   ,-[[36;1;4mC:\Erp\frontend-erp\app\page.tsx[0m:3:1]
+ [2m3[0m | 
+ [2m4[0m | import axios from "axios";
+ [2m5[0m | 
+ [2m6[0m | export async function getServerSideProps({ context }: { context: any; }) {
+   : [31;1m                      ^^^^^^^^^^^^^^^^^^[0m
+ [2m7[0m |   const { req } = context;
+ [2m8[0m |   let isLoggedIn = false;
+ [2m8[0m | 
+   `----
+
+File path:
+  ./app\page.tsx
+ ⨯ ./app\page.tsx
+ReactServerComponentsError:
+
+"getServerSideProps" is not supported in app/. Read more: https://nextjs.org/docs/app/building-your-application/data-fetching
+
+   ,-[[36;1;4mC:\Erp\frontend-erp\app\page.tsx[0m:3:1]
+ [2m3[0m | 
+ [2m4[0m | import axios from "axios";
+ [2m5[0m | 
+ [2m6[0m | export async function getServerSideProps({ context }: { context: any; }) {
+   : [31;1m                      ^^^^^^^^^^^^^^^^^^[0m
+ [2m7[0m |   const { req } = context;
+ [2m8[0m |   let isLoggedIn = false;
+ [2m8[0m | 
+   `----
+
+File path:
+  ./app\page.tsx
+ ○ Compiling /not-found ...
+ ⨯ ./app\page.tsx
+ReactServerComponentsError:
+
+"getServerSideProps" is not supported in app/. Read more: https://nextjs.org/docs/app/building-your-application/data-fetching
+
+   ,-[[36;1;4mC:\Erp\frontend-erp\app\page.tsx[0m:3:1]
+ [2m3[0m | 
+ [2m4[0m | import axios from "axios";
+ [2m5[0m | 
+ [2m6[0m | export async function getServerSideProps({ context }: { context: any; }) {
+   : [31;1m                      ^^^^^^^^^^^^^^^^^^[0m
+ [2m7[0m |   const { req } = context;
+ [2m8[0m |   let isLoggedIn = false;
+ [2m8[0m | 
+   `----
+
+File path:
+  ./app\page.tsx
+ ⨯ ./app\page.tsx
+ReactServerComponentsError:
+
+"getServerSideProps" is not supported in app/. Read more: https://nextjs.org/docs/app/building-your-application/data-fetching
+
+   ,-[[36;1;4mC:\Erp\frontend-erp\app\page.tsx[0m:3:1]
+ [2m3[0m | 
+ [2m4[0m | import axios from "axios";
+ [2m5[0m | 
+ [2m6[0m | export async function getServerSideProps({ context }: { context: any; }) {
+   : [31;1m                      ^^^^^^^^^^^^^^^^^^[0m
+ [2m7[0m |   const { req } = context;
+ [2m8[0m |   let isLoggedIn = false;
+ [2m8[0m | 
+   `----
+
+File path:
+  ./app\page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Erp\frontend-erp\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[12].oneOf[12].use[2]!C:\Erp\frontend-erp\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[12].oneOf[12].use[3]!C:\Erp\frontend-erp\app\globals.css': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning

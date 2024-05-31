@@ -9,7 +9,7 @@ export async function getServerSideProps({ context }: { context: any; }) {
 
   try {
     // Simulate fetching user authentication status from an API
-    const response = await axios.get("http://your-backend-url/api/check-auth", {
+    const response = await axios.get("/api/check-auth", {
       headers: {
         Cookie: req.headers.cookie || "", // Forward cookies to the API server
       },
