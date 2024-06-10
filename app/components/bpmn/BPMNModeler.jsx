@@ -45,7 +45,6 @@ import "bpmn-js/dist/assets/diagram-js.css";
 import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
 import "bpmn-js-properties-panel/dist/assets/properties-panel.css";
 
-import customPropertiesProviderModule from "../customPropertiesProvider";
 
 let modeler = null;
 let uniq = null;
