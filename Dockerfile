@@ -8,10 +8,10 @@ WORKDIR /usr/src/app
 COPY package.json package-lock.json* ./
 
 # Install dependencies using npm ci, which is better for reproducible builds
-RUN npm ci
+RUN npm install
 
 # Set environment variables
-# ENV MONGO_URI="mongodb://mongo:27017/erp"
+ENV MONGO_URI="mongodb://mongo:27017/erp"
 ENV TOKEN_SECRET="nextjsyoutube"
 ENV DOMAIN="http://localhost:3001"
 
