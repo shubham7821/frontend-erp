@@ -35,7 +35,7 @@ export default function CreateForm() {
   const saveForm = (e) => {
     e.preventDefault();
     axios
-      .post("http://127.0.0.1:4000/form/createForm", {
+      .post("http://13.202.70.97/form/createForm", {
         id: id ? id : "0",
         data: jsonSchema,
       })
