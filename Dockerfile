@@ -11,9 +11,9 @@ COPY package.json package-lock.json* ./
 RUN npm install
 
 # Set environment variables
-ENV MONGO_URI="mongodb://mongo:27017/erp"
-ENV TOKEN_SECRET="nextjsyoutube"
-ENV DOMAIN="http://localhost:3001"
+# ENV MONGO_URI="mongodb://127.0.0.1:27017/erp"
+# ENV TOKEN_SECRET="nextjsyoutube"
+# ENV DOMAIN="http://localhost:3001"
 
 # Bundle your app's source code inside the Docker container
 COPY . .
